@@ -40,9 +40,10 @@
       </div>
     </div>
     <picture class="card-image__container">
-      <source srcset="./images/image-header-desktop.jpg 540w">
-      <source srcset="./images/image-header-mobile.jpg 654w">
+      <source srcset="./images/image-header-desktop.jpg 540w" media="(min-width: 1141px)">
+      <source srcset="./images/image-header-mobile.jpg 654w" media="(max-width: 1140px)">
       <img class="card__image" src="./images/image-header-desktop.jpg" alt="women working in a office">
+      <div class="card-image__overlay"></div>
     </picture>
   </section>
 </body>
